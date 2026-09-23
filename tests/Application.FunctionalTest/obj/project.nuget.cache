@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tAc4dw2N6B4=",
+  "dgSpecHash": "1KPdxVrE0Y4=",
   "success": true,
-  "projectFilePath": "d:\\.NET\\Blog\\tests\\Application.FunctionalTest\\Application.FunctionalTest.csproj",
+  "projectFilePath": "D:\\.NET\\Blog\\tests\\Application.FunctionalTest\\Application.FunctionalTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin4\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\Admin4\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",
@@ -19,5 +19,15 @@
     "C:\\Users\\Admin4\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "C:\\Users\\Admin4\\.nuget\\packages\\xunit.runner.visualstudio\\3.1.4\\xunit.runner.visualstudio.3.1.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "D:\\.NET\\Blog\\tests\\Application.FunctionalTest\\Application.FunctionalTest.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\.NET\\Blog\\tests\\Application.FunctionalTest\\Application.FunctionalTest.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
