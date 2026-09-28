@@ -20,7 +20,6 @@ public class UserRepository(BlogDbContext blogDbContext) : GenericRepository<Use
             .SelectMany(u => u.UserRoles)
             .Select(u => u.Role.Name)
             .ToListAsync();
-        throw new NotImplementedException();
     }
 
 }

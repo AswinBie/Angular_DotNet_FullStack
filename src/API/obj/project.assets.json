@@ -630,6 +630,9 @@
       "Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Application.dll": {}
         },
@@ -1691,6 +1694,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Application >= 1.0.0",
       "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.12",
       "Microsoft.EntityFrameworkCore >= 10.0.12",
@@ -1730,6 +1734,9 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "D:\\.NET\\Blog\\src\\Application\\Application.csproj": {
+              "projectPath": "D:\\.NET\\Blog\\src\\Application\\Application.csproj"
+            },
             "D:\\.NET\\Blog\\src\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "D:\\.NET\\Blog\\src\\Infrastructure\\Infrastructure.csproj"
             }

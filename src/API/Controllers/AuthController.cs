@@ -1,15 +1,17 @@
 using System;
-using Microsoft.AspNetCore.Identity.Data;
+using Application.Interface;
+using Application.Models.Request;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
-public class AuthController: BaseApiController
+public class AuthController(IAuthenticationService authenticationService): BaseApiController
 {
     [HttpPost("Register")]
     public async Task<IResult> Register(RegisterRequest registerRequest)
     {
-        return Results.Ok();
+        var response = await authenticationService.RegisterAsync(registerRequest);
+        return Results.Ok(response);
     }
 
     [HttpPost("Login")]
